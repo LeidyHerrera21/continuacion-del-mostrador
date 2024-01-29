@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+	<link rel="icon" href="img/hopper.png">
+    <link rel="stylesheet" href="assets/css/peliculas.css">
+	<link rel="stylesheet" href="assets/css/populares.css">
+
+    <title>Populares</title>
+</head>
+<body> 
+
+    <header>
+		<div class="contenedor">
+			<h2 class="logotipo">기술 hopper 🐱🐶🐼</h2>
+			<nav>
+				<a href="index.html" >Inicio</a>
+				<a href="peliculas.html">Peliculas</a>
+				<a href="series.html">Series</a>
+				<a href="populares.html" class="activo">Populares</a>
+			</nav>
+ 
+				<nav class="nav">
+					<ul class="nav-list">
+						<li class="nav-item"><button class="btn btn-header" id="ver-todos">Ver todos</button></li> 
+						<li class="nav-item"><button class="btn btn-header Romance" id="Romance">Romance</button></li>
+						<li class="nav-item"><button class="btn btn-header Terror" id="Terror">Terror</button></li>
+						<li class="nav-item"><button class="btn btn-header Drama" id="Drama">Drama</button></li>
+						<li class="nav-item"><button class="btn btn-header Acción" id="Acción">Acción</button></li>
+						<li class="nav-item"><button class="btn btn-header Aventura" id="Aventura">Aventura</button></li>
+						<li class="nav-item"><button class="btn btn-header CienciaFicción" id="CienciaFicción">Ciencia Ficción</button></li>
+						<li class="nav-item"><button class="btn btn-header Fantasia" id="Fantasia">Fantasia</button></li>
+						<li class="nav-item"><button class="btn btn-header Suspenso" id="Suspenso">Suspenso</button></li>
+						<li class="nav-item"><button class="btn btn-header Comedia" id="Comedia">Comedia</button></li>
+
+					</ul>
+				</nav>
+			</header>
+			<main>
+				
+				<div id="todos">
+					<div class="anime-todos" id="listaAnime">
+						<div class="anime">
+							<div class="anime-imagen">
+								<img src= "https://github.com/riimuru/gogoanime-api/blob/main/package-lock.json", alt="Anime">
+							</div>
+							<div class="anime-info">
+								<div class="nombre-contenedor">
+									<h2 class="anime-nombre">Death Note</h2>
+								</div>
+								<div class="anime-tipos">
+									<p class="genero">Drama</p>
+								</div>
+								<div class="anime-stats">
+									<p class="stat">2 Temporadas</p>
+								</div>
+							</div>
+						</div> 
+					</div>
+				</div>
+		
+			</main>
+			<script src="assets/js/populares.js"></script>
+			<script src="assets/json/populares.json"></script>
+</body>
+</html>

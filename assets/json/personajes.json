@@ -1,0 +1,58 @@
+{
+    "name": "one-piece",
+    "version": "1.0.1",
+    "description": "One Piece Treasure Cruise Damage Calculator",
+    "engines": {
+      "node": ">=4.0.0"
+    },
+    "scripts": {
+      "deploy": "./scripts/deploy.sh",
+      "update:data": "mkdir -p data/ && ./scripts/update_data.js",
+      "start": "./server.js"
+    },
+    "author": "zlargon",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/zlargon/one-piece.git"
+    },
+    "bugs": {
+      "url": "https://github.com/zlargon/one-piece/issues"
+    },
+    "homepage": "https://github.com/zlargon/one-piece#readme",
+    "dependencies": {
+      "normalize.css": "^5.0.0",
+      "react": "^15.4.1",
+      "react-dnd": "^2.1.4",
+      "react-dnd-html5-backend": "^2.1.2",
+      "react-dnd-touch-backend": "^0.3.3",
+      "react-dom": "^15.4.1",
+      "shortid": "^2.2.6"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.18.0",
+      "babel-core": "^6.18.2",
+      "babel-loader": "^6.2.9",
+      "babel-plugin-syntax-decorators": "^6.13.0",
+      "babel-plugin-transform-class-properties": "^6.19.0",
+      "babel-plugin-transform-decorators-legacy": "^1.3.4",
+      "babel-plugin-transform-object-rest-spread": "^6.19.0",
+      "babel-preset-es2015": "^6.18.0",
+      "babel-preset-react": "^6.16.0",
+      "babel-preset-react-hmre": "^1.1.1",
+      "babel-preset-stage-3": "^6.17.0",
+      "cheerio": "^0.22.0",
+      "core-decorators": "^0.14.0",
+      "css-loader": "^0.26.1",
+      "express": "^4.14.0",
+      "json-loader": "^0.5.4",
+      "less": "^2.7.1",
+      "less-loader": "^2.2.3",
+      "node-fetch": "^1.6.3",
+      "postcss-loader": "^0.13.0",
+      "style-loader": "^0.13.1",
+      "webpack": "^1.14.0",
+      "webpack-dev-middleware": "^1.8.4",
+      "webpack-hot-middleware": "^2.13.2"
+    }
+  }
